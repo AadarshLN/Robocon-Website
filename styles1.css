@@ -1,0 +1,79 @@
+body
+{
+    background-image: url(https://img.freepik.com/free-photo/black-rustic-blank-chalkboard-background_53876-124427.jpg?w=2000);
+}
+
+
+
+.nav justify-content-end>li{
+    border-right: 1px solid #000;
+  }
+  header
+  {
+      padding-top: 4.5%;
+      padding-right: 10%;
+  }
+  .contact-us
+  {
+      /* background-color: #fbc219; */
+      background-color: #fbc219;
+      border-radius: 2px;
+      
+  }
+  button
+  {
+      
+    border-color:#fbc219;
+    box-shadow: none ;
+    /* padding: 0.05% 0.0001%; */
+    padding: 0.05% 0.0001%;
+    height: 90%;
+  }
+ .header
+ {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  background: rgb(251, 194, 25);
+  color: white;
+  font-size: 40px;
+  width: 16%;
+  height:14%;
+  font-weight: 500;
+  border-radius: 4px;
+  margin: 2% 5%;
+  font-stretch: expanded;
+
+  
+
+ }
+ .para
+ {
+    color:white;
+    font-style: normal;
+    font-weight: 750;
+    padding: 5px 150px;
+    font-size:larger;
+
+ }
+ a:link
+{
+    color:white;
+}
+a:visited
+{
+    color:white;
+}
+a:hover
+{
+    color:white;
+}
+a:active
+{
+    color:white;
+}
+li {
+    font-size: 1rem;
+    line-height: 19px; letter-spacing: 0em;
+    display: block;
+   
+}

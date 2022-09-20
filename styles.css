@@ -18,6 +18,8 @@ header
 .contact-us
 {
     background-color: #fbc219;
+    border-radius: 2px;
+    
     
 }
 a:link
@@ -39,8 +41,10 @@ a:active
 button
 {
     border-color:#fbc219;
-    box-shadow: none;
-    padding: 0%;
+    box-shadow: 10px 10px ;
+    padding: 0.05% 0.0001%;
+    height: 27%;
+    
 }
 
 li {
