@@ -1,7 +1,7 @@
 body
 {
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-    url(https://media-private.canva.com/ejQe4/MAE3SyejQe4/1/s.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20220902%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220902T222648Z&X-Amz-Expires=73272&X-Amz-Signature=89e6ac29344b6293eafb5617b9cafdaa65f4fded38a361d0ed7303e4459fbb9b&X-Amz-SignedHeaders=host&response-expires=Sat%2C%2003%20Sep%202022%2018%3A48%3A00%20GMT);
+    url("background_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -15,13 +15,13 @@ header
     padding-top: 4.5%;
     padding-right: 10%;
 }
-.contact-us
+/* .contact-us
 {
-    background-color: #fbc219;
-    border-radius: 2px;
+    /* background-color: #fbc219; */
+    /* border-radius: 2px; */
     
     
-}
+ */
 a:link
 {
     color:white;
@@ -40,7 +40,7 @@ a:active
 }
 button
 {
-    border-color:#fbc219;
+    /* border-color:#fbc219; */
     box-shadow: 10px 10px ;
     padding: 0.05% 0.0001%;
     height: 27%;
@@ -48,7 +48,7 @@ button
 }
 
 li {
-    font-size: 1rem;
+    font-size: 1.6rem;
     line-height: 19px; letter-spacing: 0em;
     display: block;
    
@@ -61,16 +61,16 @@ hr
     height: 100px;
     color:#fbc219
 }
-#center1
+/* #center1
 {
     width: 50.9611px; 
     height: 40.0777px;
     align-items:center;
-}
-#center2
+} */
+/* #center2
 {
     width: 120.608px; height: 120.723px
-}
+} */
 #title
 {
     font-weight: 800;
@@ -88,7 +88,7 @@ hr
 
   text-align: center;
 
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgba(254,220,119,1), 0 0 40px rgba(254,220,119,1) , 0 0 50px rgba(254,220,119,1), 0 0 60px rgba(254,220,119,1), 0 0 70px rgba(254,220,119,1);
+  text-shadow: 0 0 10px #ffe, 0 0.3 20px #ffe, 0 0 30px rgba(254,220,119,1), 0 0 40px rgba(254,220,119,1) , 0 0 50px rgba(254,220,119,1), 0 0 60px rgba(254,220,119,1), 0 0 70px rgba(254,220,119,1);
 
   /* -webkit-animation: glow 15s ease-in-out infinite alternate;
   -moz-animation: glow 15s ease-in-out infinite alternate;
@@ -113,5 +113,34 @@ hr
     height: 3%;
     align-content: center;
     transform: rotate(180deg);
+    
 }
-  
+.mainimg
+{
+    width: 40%;
+    height: 50%;
+    align-items:center;
+
+}
+.images
+{
+    margin-left: 40%;
+    margin-right:30%;
+    padding-top: 0.5rem;
+   
+}
+nav
+{
+    padding-top: 2%;
+    padding-right:4%;
+}
+.yeltxt
+{
+    color: rgba(254,220,119,1);
+    font-size: 1.8rem;
+}
+.whitetxt
+{
+    color:white;
+    font-size: 1.8rem;
+}
