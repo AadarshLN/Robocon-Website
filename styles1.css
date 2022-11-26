@@ -1,60 +1,26 @@
-body
-{
-   background: url(background.jpg);
 
-}
-.nav justify-content-end>li{
+/* .nav justify-content-end>li{
     border-right: 1px solid #000;
-  }
-  header
-  {
-      padding-top: 4.5%;
-      padding-right: 10%;
-  }
+  } */
+  /*
   .contact-us
   {
       /* background-color: #fbc219; */
-      background-color: #fbc219;
-      border-radius: 2px;
+      /* background-color: #fbc219;
+      border-radius: 2px; */
       
-  }
+  /* }
   button
   {
       
     border-color:#fbc219;
     box-shadow: none ;
     /* padding: 0.05% 0.0001%; */
-    padding: 0.05% 0.0001%;
+    /* padding: 0.05% 0.0001%;
     height: 90%;
-  }
- .header
- {
-  padding: 15px 15px 15px 15px;
-  text-align: center;
-  background: rgb(251, 194, 25);
-  color: white;
-  font-size: 30px;
-  width: 20%;
-  height:10%;
-  font-weight: 500;
-  border-radius: 8px;
-  margin: 2% 5%;
-  font-stretch: extra-stretch;
-  
-  
-
-  
-
- }
- .para
- {
-    color: white;
-    font-style: normal;
-    font-weight: 750;
-    padding: 5px 100px; /*150*/
-    font-size:larger;
-
- }
+  } */ */ */
+ 
+ 
  a:link
 {
     color:white;

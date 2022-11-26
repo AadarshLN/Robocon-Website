@@ -1,13 +1,35 @@
+nav
+{
+    margin:0px;
+    overflow:hidden;
+    background-color:rgba(0, 0, 0, 1);
+    height: 5rem;
+   
+}
 body
 {
+    padding: 0px;
+}
+.home
+{
+    height:100vh;
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
     url("background_img.jpg");
     background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    
+    background-blend-mode: darken;
+
+}
+.ROBOCON
+{
+   background: url(background.jpg);
+   height:1121.3px;
+   background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    background-blend-mode: darken;
-    /* backdrop-filter: blur(3px); */
-   
+    /* margin-top: 18%; */
 
 }
 header
@@ -59,7 +81,7 @@ li {
 hr
 {
     height: 100px;
-    color:#fbc219
+    color:#fbc219;
 }
 /* #center1
 {
@@ -103,7 +125,7 @@ hr
       text-shadow: 0 0 20px #fff, 0 0 30px rgba(254,220,119,1), 0 0 40px rgba(254,220,119,1), 0 0 50px rgba(254,220,119,1), 0 0 60px rgba(254,220,119,1), 0 0 70px rgba(254,220,119,1), 0 0 80px rgba(254,220,119,1);
     } */
   }
-#arrow
+/* #arrow
 {
     position: relative;
     top: 0;
@@ -114,7 +136,7 @@ hr
     align-content: center;
     transform: rotate(180deg);
     
-}
+} */
 .mainimg
 {
     width: 40%;
@@ -144,3 +166,18 @@ nav
     color:white;
     font-size: 1.8rem;
 }
+.para
+ {
+    color: white;
+    font-style: normal;
+    font-weight: 750;
+    padding: 5px 100px; /*150*/
+    font-size:20px; 
+
+ }
+ .header
+ {
+     padding-top: 4.5%;
+     padding-right: 10%;
+     color:#fbc219;
+ }
