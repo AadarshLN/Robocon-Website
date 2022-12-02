@@ -1,9 +1,90 @@
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+    /* background-color: orange;
+    color: black; */
+  }
+}
+ 
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  .gfg-div {
+    width: 200px;
+    height: 200px;
+    /* background-color: red;
+    color: #fff; */
+  }
+}
+ 
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+    /* background-color: cyan;
+    color: black; */
+  }
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+    /* background-color: chartreuse;
+    color: black; */
+  }
+}
+ 
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+    /* background-color: brown;
+    color: black; */
+  }
+}
+ 
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+    /* background-color: cornflowerblue;
+    color: black; */
+  }
+}
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+    /* background-color: darkgoldenrod;
+    color: black; */
+  }
+}
+
+
+
+
 nav
 {
     margin:0px;
     overflow:hidden;
     background-color:rgba(0, 0, 0, 1);
-    height: 5rem;
+    /* background: rgba(150, 118, 118, 0.4);
+  border-bottom: 1px solid rgba(225,225,225,0.5); */
+  z-index: 1000;
+    height: 5.5rem;
    
 }
 body
@@ -22,15 +103,53 @@ body
     background-blend-mode: darken;
 
 }
+
 .ROBOCON
 {
    background: url(background.jpg);
-   height:1121.3px;
+   
    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     /* margin-top: 18%; */
 
+}
+.about
+{
+   background: url(background.jpg);
+   
+   background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+
+
+}
+.legacy
+{
+   background: url(background.jpg);
+   
+   background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+
+}
+.contact
+{
+    background: url(background.jpg);
+    
+    background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+}
+.team
+{
+    background: url(background.jpg);
+    
+    background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
 }
 header
 {
@@ -99,6 +218,7 @@ hr
     font-style: normal;
     color: rgb(251, 194, 25);
     font-size:70px;
+    
 
 }
 .neonText {
@@ -169,15 +289,45 @@ nav
 .para
  {
     color: white;
-    font-style: normal;
+    font-style:normal;
     font-weight: 750;
     padding: 5px 100px; /*150*/
-    font-size:20px; 
+    font-size:25px; 
 
  }
  .header
  {
-     padding-top: 4.5%;
-     padding-right: 10%;
+     /* padding-top: 4.5%;
+     padding-right: 10%; */
      color:#fbc219;
+     font-size: 5rem;
+     padding:7% 30%;
  }
+ .header-line
+ {
+    border-top: 8px dashed;
+    width: 50%;
+ }
+ .right{
+    float:right;
+    font-size: 1.5rem;
+    padding-right: 15cm;
+    color:whitesmoke;
+}
+.left
+{
+    font-size: 1.5rem;
+    color:whitesmoke;
+    text-decoration-color: whitesmoke;
+    /* text-decoration:underline; */
+    font-weight: 400;
+    padding-left: 15cm
+}
+/* .contact-card
+{
+    /* padding:7% 30%; */
+    /* color: whitesmoke;
+    font-size: 1.5rem;
+    
+    
+}*/  
